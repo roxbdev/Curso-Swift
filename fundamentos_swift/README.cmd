@@ -1,6 +1,3 @@
-Crea un `README.md` dentro de esa carpeta:
-
-```markdown
 # 🧠 Fundamentos de Swift
 
 En esta sección aprenderás las bases del lenguaje Swift.
