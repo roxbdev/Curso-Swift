@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-private let programmers = [Programmer(id: 1, name:"Eloy",languages:"Python", avatar: Image(systemName: "person")),
+private let programmers = [Programmer(id: 1, name:"Maria",
+                            languages:"Python", avatar: Image(systemName: "person")),
                            Programmer(id: 2, name:"Eloy",languages:"Javascript", avatar: Image(systemName: "person")),
                            Programmer(id: 3, name:"Rox",languages:"Go", avatar: Image(systemName: "person")),
                            Programmer(id: 4, name:"Stalin",languages:"Go", avatar: Image(systemName: "person")),
