@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C92A4ED2F8A83000099E6AC /* WebApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92A4EC2F8A83000099E6AC /* WebApiTests.swift */; };
+		8CCDFCF82F8197BD00DC6E48 /* WebApiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDFCF72F8197BD00DC6E48 /* WebApiApp.swift */; };
+		8CCDFCFA2F8197BD00DC6E48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDFCF92F8197BD00DC6E48 /* ContentView.swift */; };
+		8CCDFCFC2F8197BF00DC6E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCDFCFB2F8197BF00DC6E48 /* Assets.xcassets */; };
+		8CCDFCFF2F8197BF00DC6E48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCDFCFE2F8197BF00DC6E48 /* Preview Assets.xcassets */; };
+		8CCDFD0A2F81993700DC6E48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDFD092F81993700DC6E48 /* User.swift */; };
+		8CCDFD0C2F81996A00DC6E48 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDFD0B2F81996A00DC6E48 /* APIService.swift */; };
+		8CCDFD0E2F81999100DC6E48 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDFD0D2F81999100DC6E48 /* UserViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C92A4EE2F8A83000099E6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCDFCEC2F8197BD00DC6E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCDFCF32F8197BD00DC6E48;
+			remoteInfo = WebApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C92A4EA2F8A82FF0099E6AC /* WebApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C92A4EC2F8A83000099E6AC /* WebApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiTests.swift; sourceTree = "<group>"; };
+		8CCDFCF42F8197BD00DC6E48 /* WebApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCDFCF72F8197BD00DC6E48 /* WebApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiApp.swift; sourceTree = "<group>"; };
+		8CCDFCF92F8197BD00DC6E48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../Models/ContentView.swift; sourceTree = "<group>"; };
+		8CCDFCFB2F8197BF00DC6E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CCDFCFE2F8197BF00DC6E48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CCDFD092F81993700DC6E48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8CCDFD0B2F81996A00DC6E48 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8CCDFD0D2F81999100DC6E48 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C92A4E72F8A82FF0099E6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCDFCF12F8197BD00DC6E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C92A4EB2F8A83000099E6AC /* WebApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C92A4EC2F8A83000099E6AC /* WebApiTests.swift */,
+			);
+			path = WebApiTests;
+			sourceTree = "<group>";
+		};
+		8CCDFCEB2F8197BD00DC6E48 = {
+			isa = PBXGroup;
+			children = (
+				8CCDFCF62F8197BD00DC6E48 /* WebApi */,
+				8C92A4EB2F8A83000099E6AC /* WebApiTests */,
+				8CCDFCF52F8197BD00DC6E48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCDFCF52F8197BD00DC6E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CCDFCF42F8197BD00DC6E48 /* WebApi.app */,
+				8C92A4EA2F8A82FF0099E6AC /* WebApiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CCDFCF62F8197BD00DC6E48 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+				8CCDFD052F8197E400DC6E48 /* Models */,
+				8CCDFD072F8198CE00DC6E48 /* Views */,
+				8CCDFD062F81989800DC6E48 /* ViewModels */,
+				8CCDFD082F8198E600DC6E48 /* Services */,
+				8CCDFCF72F8197BD00DC6E48 /* WebApiApp.swift */,
+				8CCDFCFB2F8197BF00DC6E48 /* Assets.xcassets */,
+				8CCDFCFD2F8197BF00DC6E48 /* Preview Content */,
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
+		8CCDFCFD2F8197BF00DC6E48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CCDFCFE2F8197BF00DC6E48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CCDFD052F8197E400DC6E48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CCDFD092F81993700DC6E48 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CCDFD062F81989800DC6E48 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8CCDFD0D2F81999100DC6E48 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CCDFD072F8198CE00DC6E48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CCDFCF92F8197BD00DC6E48 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CCDFD082F8198E600DC6E48 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8CCDFD0B2F81996A00DC6E48 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C92A4E92F8A82FF0099E6AC /* WebApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C92A4F22F8A83000099E6AC /* Build configuration list for PBXNativeTarget "WebApiTests" */;
+			buildPhases = (
+				8C92A4E62F8A82FF0099E6AC /* Sources */,
+				8C92A4E72F8A82FF0099E6AC /* Frameworks */,
+				8C92A4E82F8A82FF0099E6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C92A4EF2F8A83000099E6AC /* PBXTargetDependency */,
+			);
+			name = WebApiTests;
+			productName = WebApiTests;
+			productReference = 8C92A4EA2F8A82FF0099E6AC /* WebApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CCDFCF32F8197BD00DC6E48 /* WebApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCDFD022F8197BF00DC6E48 /* Build configuration list for PBXNativeTarget "WebApi" */;
+			buildPhases = (
+				8CCDFCF02F8197BD00DC6E48 /* Sources */,
+				8CCDFCF12F8197BD00DC6E48 /* Frameworks */,
+				8CCDFCF22F8197BD00DC6E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebApi;
+			productName = WebApi;
+			productReference = 8CCDFCF42F8197BD00DC6E48 /* WebApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CCDFCEC2F8197BD00DC6E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8C92A4E92F8A82FF0099E6AC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8CCDFCF32F8197BD00DC6E48;
+					};
+					8CCDFCF32F8197BD00DC6E48 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8CCDFCEF2F8197BD00DC6E48 /* Build configuration list for PBXProject "WebApi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CCDFCEB2F8197BD00DC6E48;
+			productRefGroup = 8CCDFCF52F8197BD00DC6E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CCDFCF32F8197BD00DC6E48 /* WebApi */,
+				8C92A4E92F8A82FF0099E6AC /* WebApiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C92A4E82F8A82FF0099E6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCDFCF22F8197BD00DC6E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCDFCFF2F8197BF00DC6E48 /* Preview Assets.xcassets in Resources */,
+				8CCDFCFC2F8197BF00DC6E48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C92A4E62F8A82FF0099E6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C92A4ED2F8A83000099E6AC /* WebApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCDFCF02F8197BD00DC6E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCDFCFA2F8197BD00DC6E48 /* ContentView.swift in Sources */,
+				8CCDFCF82F8197BD00DC6E48 /* WebApiApp.swift in Sources */,
+				8CCDFD0C2F81996A00DC6E48 /* APIService.swift in Sources */,
+				8CCDFD0E2F81999100DC6E48 /* UserViewModel.swift in Sources */,
+				8CCDFD0A2F81993700DC6E48 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C92A4EF2F8A83000099E6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCDFCF32F8197BD00DC6E48 /* WebApi */;
+			targetProxy = 8C92A4EE2F8A83000099E6AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C92A4F02F8A83000099E6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7RASQ6V2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codigomu.com.WebApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebApi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WebApi";
+			};
+			name = Debug;
+		};
+		8C92A4F12F8A83000099E6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7RASQ6V2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codigomu.com.WebApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebApi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WebApi";
+			};
+			name = Release;
+		};
+		8CCDFD002F8197BF00DC6E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CCDFD012F8197BF00DC6E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CCDFD032F8197BF00DC6E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WebApi/Preview Content\"";
+				DEVELOPMENT_TEAM = T7RASQ6V2X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codigomu.com.WebApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CCDFD042F8197BF00DC6E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WebApi/Preview Content\"";
+				DEVELOPMENT_TEAM = T7RASQ6V2X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codigomu.com.WebApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C92A4F22F8A83000099E6AC /* Build configuration list for PBXNativeTarget "WebApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C92A4F02F8A83000099E6AC /* Debug */,
+				8C92A4F12F8A83000099E6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCDFCEF2F8197BD00DC6E48 /* Build configuration list for PBXProject "WebApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCDFD002F8197BF00DC6E48 /* Debug */,
+				8CCDFD012F8197BF00DC6E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCDFD022F8197BF00DC6E48 /* Build configuration list for PBXNativeTarget "WebApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCDFD032F8197BF00DC6E48 /* Debug */,
+				8CCDFD042F8197BF00DC6E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CCDFCEC2F8197BD00DC6E48 /* Project object */;
+}
